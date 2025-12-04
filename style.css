@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body h1 {
+text-align: left;
+background-color: rgb(209, 176, 31);
+padding: 50px;
+text-decoration: dotted;
+font-style: oblique;
+font-size: xx-large;
+}
+
+
+header {
+    background-color: rgb(225, 195, 21);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:;
+    font-size: larger;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.hero {
+    background: url(./Crispy.jpeg);
+    height: 800px;
+    text-align: center;
+    background-size: cover;
+    padding-top: 100px;
+    font-size: 500%;
+    font-style: inherit;
+
+}
+.hero button {
+    padding: 30px 60px;
+    border: none;
+    background: rgb(225, 195, 21);
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+.menu-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.menu-card {
+    background: #fff3e6;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-card h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.price {
+    display: inline-block;
+    margin-top: 10px;
+    background: rgb(225, 195, 21)
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
