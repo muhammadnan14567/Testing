@@ -18,7 +18,6 @@ header {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    align-items:;
     font-size: larger;
 }
 
@@ -92,4 +91,16 @@ nav ul li a {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+}
+.contact-container {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.contact-info {
+background-color: rgb(225, 195, 21);
+width: 100%;
+margin-top: 5%;
 }
